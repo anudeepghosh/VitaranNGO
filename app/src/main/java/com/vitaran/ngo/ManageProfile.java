@@ -289,7 +289,16 @@ public class ManageProfile extends AppCompatActivity implements View.OnClickList
                             itemList.clear();
                             populateSpinner("item");
                             populateTable();
-                        }else{
+                        }/**
+                         * Bug ID-84 related to testcase Quarks - 31
+                         * Bug Status : Solved
+                         * Bug : Quantity must be strictly numeric
+                         * Solution :
+                         * 1. Made quantity numeric by using regex code to
+                         * check for only numerical inputs
+                         * 2. UI contraint of only numerical input applied on the EditText View
+                         */
+                        else{
                             //If the server response is not success
                             //Displaying an error message on toast
                             message = "Unable to add item";
