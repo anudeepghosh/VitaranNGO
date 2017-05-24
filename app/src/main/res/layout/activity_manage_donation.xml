@@ -7,10 +7,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.vitaran.ngo.ManageDonation">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
 
         <HorizontalScrollView
             android:layout_width="match_parent"
@@ -24,6 +26,14 @@
             </TableLayout>
         </HorizontalScrollView>
     </ScrollView>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Collection"
+        android:id="@+id/button"
+        android:layout_gravity="bottom" />
 
 </LinearLayout>
 

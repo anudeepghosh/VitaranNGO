@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="column0" type="id"/>
+    <item name="column1" type="id"/>
+    <item name="column2" type="id"/>
+    <item name="column3" type="id"/>
+    <item name="column4" type="id"/>
+    <item name="column5" type="id"/>
+    <item name="column6" type="id"/>
+</resources>

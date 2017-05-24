@@ -13,6 +13,7 @@ public class Constants {
     public static final String ADD_TAG_URL = BASE_URL+"addTagsNGO.php";
     public static final String FILL_URL = BASE_URL+"fillSpinner.php";
     public static final String FILL_TABLE_URL = BASE_URL+"fillNGOItemTable.php";
+    public static final String FILL_MANAGE_DONATION_TABLE_URL = BASE_URL+"fillManageDonationTable.php";
 
     public static final String REGISTER_OPERATION = "register";
     public static final String LOGIN_OPERATION = "login";
